@@ -1,0 +1,73 @@
+@media (max-width: 1440px) {
+  .container-left,
+  .container-right {
+    height: 90vh;
+  }
+}
+/*below 1232px search-bar shrink, profile pic. and name gone*/
+@media (max-width: 77em) {
+  .account-profile-picture {
+    display: none;
+  }
+  .search-button {
+    display: none;
+  }
+  .header-search-bar i {
+    background-color: #f1f3f5;
+    border-radius: 50%;
+    padding: 0.8rem;
+    cursor: pointer;
+  }
+  .create-room-list {
+    overflow: hidden;
+  }
+}
+/*below 1168px stories reduced to 4*/
+@media (max-width: 73em) {
+  .stories .story-link:last-child {
+    display: none;
+  }
+}
+/*below 1080px left container is gone, back to 5 stories*/
+@media (max-width: 67.5em) {
+  .stories .story-link:last-child {
+    display: inline;
+  }
+  .container-left {
+    display: none;
+  }
+  .container-right {
+    width: 30%;
+  }
+  .container-center {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+/*below 880px right container is gone*/
+@media (max-width: 55em) {
+  .container-right {
+    display: none;
+  }
+  .container-center {
+    width: 100%;
+  }
+  .post-box {
+    width: 100%;
+  }
+}
+/*below 680px header-navigation is gone*/
+@media (max-width: 43em) {
+  .header-navigation {
+    display: none;
+  }
+  .post-box {
+    width: 100%;
+  }
+}
+/*below 576px stories reduced to 4*/
+@media (max-width: 36em) {
+  .stories .story-link:last-child {
+    display: none;
+  }
+}
